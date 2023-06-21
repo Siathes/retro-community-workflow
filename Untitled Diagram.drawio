@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" modified="2023-06-21T19:09:58.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="4cDcCHY0V8H0GAGiBf_o" version="21.5.0" type="github">
+  <diagram name="Page-1" id="toOF3mhVLiTg2FdreFjv">
+    <mxGraphModel dx="2899" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dLgHyXEj6f8U-kFk258--1" value="Internet/ISP" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLgHyXEj6f8U-kFk258--4" value="Domain" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dLgHyXEj6f8U-kFk258--13" value="Fediverse" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="390" width="230" height="290" as="geometry">
+            <mxRectangle x="40" y="260" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLgHyXEj6f8U-kFk258--6" value="Peertube" style="swimlane;whiteSpace=wrap;html=1;" parent="dLgHyXEj6f8U-kFk258--13" vertex="1">
+          <mxGeometry x="80" y="30" width="55" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dLgHyXEj6f8U-kFk258--7" value="Mastadon" style="swimlane;whiteSpace=wrap;html=1;" parent="dLgHyXEj6f8U-kFk258--13" vertex="1">
+          <mxGeometry x="140" y="30" width="55" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dLgHyXEj6f8U-kFk258--9" value="Pixelfed" style="swimlane;whiteSpace=wrap;html=1;" parent="dLgHyXEj6f8U-kFk258--13" vertex="1">
+          <mxGeometry x="20" y="160" width="50" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dLgHyXEj6f8U-kFk258--8" value="Lemmy" style="swimlane;whiteSpace=wrap;html=1;" parent="dLgHyXEj6f8U-kFk258--13" vertex="1">
+          <mxGeometry x="20" y="30" width="55" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dLgHyXEj6f8U-kFk258--10" value="Friendica" style="swimlane;whiteSpace=wrap;html=1;" parent="dLgHyXEj6f8U-kFk258--13" vertex="1">
+          <mxGeometry x="85" y="160" width="55" height="120" as="geometry">
+            <mxRectangle x="565" y="300" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLgHyXEj6f8U-kFk258--11" value="&lt;div&gt;Other...&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="dLgHyXEj6f8U-kFk258--13" vertex="1">
+          <mxGeometry x="150" y="160" width="55" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-6" value="BBS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="240" height="290" as="geometry">
+            <mxRectangle x="40" y="260" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-7" value="Files" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-6">
+          <mxGeometry x="80" y="30" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-8" value="DOORS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-6">
+          <mxGeometry x="160" y="30" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-9" value="Fediverse integration?" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-6">
+          <mxGeometry x="20" y="160" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-10" value="Messages" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-6">
+          <mxGeometry x="10" y="30" width="65" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-14" value="Private Server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="320" height="630" as="geometry">
+            <mxRectangle x="40" y="260" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-15" value="Radarr" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-14">
+          <mxGeometry x="160" y="170" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-16" value="Prowlarr" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-14">
+          <mxGeometry x="10" y="90" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-17" value="EMBY" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-14">
+          <mxGeometry x="117.5" y="490" width="85" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-18" value="Sonarr" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-14">
+          <mxGeometry x="90" y="170" width="65" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-20" value="OMBI" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-14">
+          <mxGeometry x="10" y="30" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-36" value="Media Manager" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-14">
+          <mxGeometry x="60" y="430" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-37" value="Torrents" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-14">
+          <mxGeometry x="55" y="330" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-38" value="&lt;div&gt;NZB&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-14">
+          <mxGeometry x="165" y="330" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-23" value="Fediverse Landing Page" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="300" width="790" height="600" as="geometry">
+            <mxRectangle x="40" y="260" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-24" value="News Feed" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-23">
+          <mxGeometry x="670" y="30" width="110" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-31" value="All subscribed updates and scrolls here for any connected fediverse platforms.&amp;nbsp; Imagine peertube videos and latest comments, threads, magazines" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-24">
+          <mxGeometry x="10" y="40" width="90" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-25" value="Mastadon" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-23">
+          <mxGeometry x="30" y="160" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-27" value="Lemmy" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-23">
+          <mxGeometry x="30" y="110" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-32" value="Platforms" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-23">
+          <mxGeometry x="10" y="40" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-26" value="Pixelfed" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-32">
+          <mxGeometry x="20" y="220" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-28" value="Friendica" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-32">
+          <mxGeometry x="20" y="270" width="55" height="40" as="geometry">
+            <mxRectangle x="565" y="300" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-29" value="&lt;div&gt;Other...&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-32">
+          <mxGeometry x="20" y="320" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-30" value="Peertube" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-32">
+          <mxGeometry x="20" y="170" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-33" value="Focus window" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-23">
+          <mxGeometry x="140" y="90" width="510" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-34" value="Focus on whichever platform or comment or video you selected" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-33">
+          <mxGeometry x="80" y="50" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-35" value="User Information" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-23">
+          <mxGeometry x="140" y="30" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-39" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="255" width="810" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-40" value="Firewall" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-39">
+          <mxGeometry x="30" y="35" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-43" value="Security" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-39">
+          <mxGeometry x="132.5" y="35" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-44" value="Privacy" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-39">
+          <mxGeometry x="240" y="35" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-45" value="reverse Proxy" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-39">
+          <mxGeometry x="340" y="35" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-51" value="Other" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-39">
+          <mxGeometry x="440" y="35" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-52" value="Users" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-53" value="Users/Devices" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1040" width="820" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-59" value="General TODO and Questions" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="110" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-60" value="What tool to continue this project on, something better than diagram.net" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-59">
+          <mxGeometry y="30" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-73" value="Formating of this drawing" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-59">
+          <mxGeometry y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-61" value="What open source services fit in the categories" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-59">
+          <mxGeometry y="90" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OWZZ-D2uDySlMZ-Wd8a4-62" value="open and secure to Retro-Community with minimal tech skills but secure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OWZZ-D2uDySlMZ-Wd8a4-59">
+          <mxGeometry y="120" width="340" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
